@@ -1,0 +1,30 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Word-a-Day: From What You Love</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="container">
+    <h1>🎬 Word of the Day: From Your Faves</h1>
+
+    <div id="input-area">
+      <p>Enter your favorite movies, songs or shows:</p>
+      <textarea id="userPrefs" rows="3" placeholder="e.g. Inception, The Weeknd, Breaking Bad"></textarea><br>
+      <button onclick="savePrefs()">Start</button>
+    </div>
+
+    <div id="word-box" style="display:none;">
+      <h2 id="word">Loading...</h2>
+      <p id="definition"></p>
+      <blockquote id="quote"></blockquote>
+      <p id="source"></p>
+      <button onclick="getWord()">🔁 Get Another</button>
+    </div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
