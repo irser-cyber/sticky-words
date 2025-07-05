@@ -13,7 +13,7 @@ This app fetches a daily complex word from quotes in your favorite movies, songs
 ## Setup & Deploy
 1. Add your `.env` file with:
 ```
-STANDS4_API_KEY=your_token_id
-STANDS4_UID=your_uid
+STANDS4_API_KEY=q8KPbOrZpfu2Rfxz
+STANDS4_UID=13417
 ```
 2. Deploy to [Vercel](https://vercel.com) — works out of the box.
