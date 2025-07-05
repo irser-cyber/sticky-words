@@ -1,7 +1,7 @@
 
 export default async function handler(req, res) {
-  const STANDS4_API_KEY = process.env.STANDS4_API_KEY;
-  const STANDS4_UID = process.env.STANDS4_UID;
+ const STANDS4_API_KEY = process.env.STANDS4TOKEN;
+const STANDS4_UID = process.env.STANDS4UID;
   const prefs = decodeURIComponent(req.query.prefs || '');
 
   const prefsList = prefs.split(',').map(p => p.trim()).filter(Boolean);
