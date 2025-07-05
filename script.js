@@ -1,4 +1,3 @@
-
 function savePrefs() {
   const prefs = document.getElementById('userPrefs').value;
   localStorage.setItem('userPrefs', prefs);
@@ -15,7 +14,8 @@ async function getWord() {
   document.getElementById('word').textContent = data.word;
   document.getElementById('definition').textContent = data.definition;
   document.getElementById('quote').textContent = `"${data.quote}"`;
-  document.getElementById('source').textContent = `— ${data.character}, ${data.title}`;
+  document.getElementById('source').textContent =
+    `— ${data.character}, ${data.title}`;
 }
 
 window.onload = () => {
