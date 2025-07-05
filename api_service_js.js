@@ -5,10 +5,10 @@
 
 // API Configuration - Add your credentials here
 const API_CONFIG = {
-    uid: '', // Add your STANDS4 User ID here
-    tokenid: '', // Add your STANDS4 Token ID here
+    uid: '13417', // Provided STANDS4 User ID
+    tokenid: 'q8KPbOrZpfu2Rfxz', // Provided STANDS4 Token ID
     baseUrl: 'https://www.stands4.com/services/v2/scripts.php',
-    enabled: false, // Set to true once you add your credentials
+    enabled: true, // Enable API now that credentials are present
     dailyLimit: 100,
     requestCount: 0
 };
